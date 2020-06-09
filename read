@@ -1,0 +1,13 @@
+1. https://github.com/terraform-aws-modules/terraform-aws-eks.git
+2. Then please cd terraform-aws-eks/examples/basic
+3. terraform init
+4. terraform plan
+5. terraform apply
+6. Then you will get the config file
+7. install aws-iam-authenticator
+7. export KUBECONFIG
+8. kubectl get nodes
+9. kubectl create deployment --image nginxdemos/hello my-nginx
+10.kubectl get pods
+11.kubectl get deployment
+12.kubectl expose deployment my-nginx --port=80 --type=LoadBalancer
